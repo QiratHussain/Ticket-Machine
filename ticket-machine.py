@@ -4,4 +4,3 @@ if hieght<= 120:
     print("sorry,you have to grow taller to ride.")
 else: 
     print("you can take the ride.")
-    
