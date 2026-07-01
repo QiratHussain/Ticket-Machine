@@ -9,4 +9,15 @@ else:
         bill= 10
     else: 
         bill= 7
-    
+    photo= int(input('''
+    Do you want photography?
+    0. no
+    1. yes
+    '''))
+    if photo==1:
+        bill +=3
+        print(f"You need to pay ${bill}")
+    elif photo==0:
+        print(f"You need to pay ${bill}")
+    else: 
+        print("invalid input")
